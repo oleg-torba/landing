@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+
+ul,
+li,
+p,
+span,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--general-font);
+  color: var(--general-text-color);
+}
+
+.white-space {
+  width: 100%;
+  height: 50px;
+}

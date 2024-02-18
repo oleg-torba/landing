@@ -1,0 +1,96 @@
+.promo__section {
+  background-color: #02174d;
+  padding: 30px 0;
+  border-bottom: 1px solid #ffffff;
+  box-shadow: 5px 4px 12.800000190734863px 0px rgba(0, 0, 0, 0.55);
+}
+
+.promo__title {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.promo__green {
+  color: #32acff;
+}
+
+.promo__description {
+  font-size: 8px;
+  margin-top: 20px;
+}
+
+.input {
+  position: relative;
+}
+
+.promo__input {
+  width: 360px;
+  border-radius: 11.6px;
+  top: 0;
+  left: 0;
+}
+
+.income {
+  border: 1px solid var(--general-text-color);
+  width: 175px;
+  padding: 17px 15px;
+}
+
+.income__year {
+  width: 134px;
+  border: 1px solid var(--general-text-color);
+  padding: 15px 12px;
+}
+
+.income__year:last-child {
+  margin-top: 22px;
+}
+.income__title {
+  font-size: 14.5px;
+  font-weight: bold;
+  position: relative;
+  line-height: 21.74px;
+  text-align: center;
+}
+
+.income__title:not(:first-child) {
+  font-size: 11px;
+  font-weight: 400;
+}
+.income__title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 50%;
+  height: 1px;
+  background-color: var(--general-text-color);
+}
+
+.income__value {
+  margin-top: 7px;
+  font-size: 43.8px;
+  font-weight: bold;
+  line-height: 65.7px;
+}
+
+.income__value-year {
+  color: var(--hero-title-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.income__time {
+  display: flex;
+  flex-direction: column;
+}
+
+.income__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

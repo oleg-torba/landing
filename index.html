@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.19/build/css/intlTelInput.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <title>Landing</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__flex-nav">
+          <div class="logo">
+            <img src="./images/Kepco_logo_en1.svg" alt="logo" />
+          </div>
+
+          <ul class="header-nav">
+            <li class="header-nav__list">
+              <a href="#aboutUs">О нас</a>
+            </li>
+            <li class="header-nav__list">
+              <a href="#whatThis">Что это?</a>
+            </li>
+            <li class="header-nav__list">
+              <a href="#feedback">Отзывы</a>
+            </li>
+            <li class="header-nav__list">
+              <a href="#Questions">Часто задаваемые вопросы</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="aboutUs" class="hero">
+        <div class="container">
+          <div class="hero__main-block">
+            <h3 class="hero__title">
+              <span class="hero__title-check">Инвестирование</span> в Korea
+              Electric Power Corporation (KEPCO) устойчивую энергетику И
+              ЗАРАБАТЫВАЙТЕ
+              <span class="hero__title-check">ДО 10 000 долларов</span> КАЖДЫЙ
+              МЕСЯЦ.
+            </h3>
+            <form class="form">
+              <p class="form__title">Регистрация</p>
+
+              <input name="firstName" placeholder="Ваше имя" required />
+
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Ваша фамилия"
+                required
+              />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Ваш адрес электронной почты"
+                required
+              />
+
+              <input
+                class="intelInput"
+                type="tel"
+                name="phone"
+                id="phone"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+
+              <button class="form__button" type="submit">
+                Присоединяйся к нам
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <div class="white-space"></div>
+      <section id="whatThis" class="investing__section">
+        <div class="investing__logo">
+          <div>
+            <p class="investing__title">
+              Устойчивое инвестирование - теперь это легко
+            </p>
+            <p>З простых шага, чтобы стать инвестором и получать прибыль</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="investing">
+            <ul class="company">
+              <li class="company__list">
+                <div>
+                  <img
+                    src="./images/company01.jpg"
+                    width="158"
+                    height="210"
+                    alt="company"
+                  />
+                </div>
+                <div class="company__list-text">
+                  <div class="company__number">
+                    <p class="company__number-span">01</p>
+                    <p>Заполните форму</p>
+                  </div>
+                  <p class="company__number-description">
+                    Заполните все поля формы выше: имя, фамилия, адрес
+                    электронной почты, номер телефона.
+                  </p>
+                </div>
+              </li>
+              <li class="company__list">
+                <div>
+                  <img
+                    src="./images/company2.jpg"
+                    width="158"
+                    height="210"
+                    alt="company"
+                  />
+                </div>
+                <div class="company__list-text">
+                  <div class="company__number">
+                    <p class="company__number-span">02</p>
+                    <p>Получите звонок от вашего менеджера</p>
+                  </div>
+                  <p class="company__number-description">
+                    Ответьте на звонок менеджера. Менеджер свяжется с вами с
+                    8:00 о 20:00 в рабочие дни, с понедельника по пятницу.
+                  </p>
+                </div>
+              </li>
+              <li class="company__list">
+                <div>
+                  <img
+                    src="./images/company3.jpg"
+                    width="158"
+                    height="210"
+                    alt="company"
+                  />
+                </div>
+                <div class="company__list-text">
+                  <div class="company__number">
+                    <p class="company__number-span">03</p>
+                    <p>Депозит</p>
+                  </div>
+                  <p class="company__number-description">Вложите любую сумму</p>
+                </div>
+              </li>
+              <li class="company__list">
+                <div>
+                  <img
+                    src="./images/company4.jpg"
+                    width="158"
+                    height="210"
+                    alt="company"
+                  />
+                </div>
+                <div class="company__list-text">
+                  <div class="company__number">
+                    <p class="company__number-span">03</p>
+                    <p>Прибыль</p>
+                  </div>
+                  <p class="company__number-description">
+                    Получи прибыль уже в первый месяц
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="promo__section">
+        <div class="container">
+          <div class="promo">
+            <h3 class="promo__title">
+              Мы открываем доступ к нашей
+              <span class="promo__green">Зеленой акции</span>
+            </h3>
+            <img
+              src="./images/promo.jpg"
+              width="350"
+              height="214"
+              alt="promo"
+            />
+            <p class="promo__description">
+              Мы открываем доступ к нашим Зеленым акциям. Мы разместили первые
+              «зеленые» акции на рынке капитала в октябре 2018 года и с тех пор
+              выпустили в общей сложности 3,5 миллиарда долларов. В соответствии
+              с нашей структурой устойчивого финансирования, средства всех наших
+              зеленых акций инвестируются исключительно в возобновляемые
+              источники энергии (береговой ветер, морской ветер, солнечная
+              энергия/электричество), электрические сети (сети распределения
+              электроэнергии), проекты энергоэффективности (умные счетчики) и
+              экологический транспорт. (инфраструктура зарядки электромобилей).
+              Теперь минимальные инвестиции в нашу компанию будут приносить в
+              среднем от $900 до $1800 в месяц. Это принесет пользу гражданам по
+              всей Южной Кореи и поможет нашей компании быстро расти.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="promo__section">
+        <div class="container">
+          <p>Рассчитай свою прибыль на калькуляторе</p>
+          <p>Выберите свои инвестиции:</p>
+          <div class="input">
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              id="slider"
+              class="promo__input"
+            />
+            <div id="free-space"></div>
+            <div id="indicator">0</div>
+          </div>
+          <div class="income__flex">
+            <div class="income">
+              <p class="income__title">Ваша прибыль</p>
+              <p id="earningsPerDay" class="income__value">$ 0</p>
+            </div>
+            <div class="income__time">
+              <div class="income__year">
+                <p id="earningsPerMonth" class="income__value-year">0 $</p>
+                <p class="income__title">В течение месяца</p>
+              </div>
+              <div class="income__year">
+                <p id="earningsPerYear" class="income__value-year">0 $</p>
+                <p class="income__title">В году</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="white-space"></div>
+      <section class="form__section">
+        <div class="container">
+          <form class="form">
+            <p class="form__title">Регистрация</p>
+
+            <input name="firstName" placeholder="Ваше имя" required />
+
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Ваша фамилия"
+              required
+            />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Ваш адрес электронной почты"
+              required
+            />
+
+            <input
+              class="intelInput"
+              id="phone"
+              type="tel"
+              name="phone"
+              placeholder="Ваш номер телефона"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+
+            <button class="form__button" type="submit">
+              Присоединяйся к нам
+            </button>
+          </form>
+        </div>
+      </section>
+      <div class="white-space"></div>
+      <section class="invest__section">
+        <div class="container">
+          <div class="invest__block">
+            <img src="./images/logoInvest.png" alt="logo" />
+            <div class="invest__text-block">
+              <p class="invest__title">Прием инвесторов 2023-2027 гг.</p>
+              <img src="./images/investingStats.png" alt="stats" />
+              <p class="invest__description">
+                Мы с гордостью сообщаем, что наша эксклюзивная инвестиционная
+                программа уже достигла впечатляющего уровня и на данный момент
+                занимает 93% доступных мест. Мы хотели бы сообщить вам, что
+                когда мы выйдем на полную мощность, мы не сможем принимать
+                дальнейшие регистрации до следующей инвестиционной волны,
+                запланированной на 2027 год.
+              </p>
+              <p class="invest__category">Мы инвестируем в:</p>
+              <p class="invest__category">
+                Солнечная энергетика - прибыль 35,2% в месяц
+              </p>
+              <p class="invest__category">
+                Ветроэнергетика - прибыль 47,8% в месяц
+              </p>
+              <p class="invest__category">
+                Зеленая энергетика - прибыль 72,9% в месяц
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="white-space"></div>
+      <section id="feedback" class="invest__section">
+        <div class="container">
+          <div>
+            <p class="feedback-secondary__title">что это</p>
+            <h3 class="feedback-main__title">
+              Устойчивое инвестирование - теперь это легко
+            </h3>
+            <div class="feedback__flex">
+              <ul class="feedback">
+                <li class="feedback__list">
+                  <p class="feedback__list-title">Прибыль 6300 $</p>
+                  <p class="feedback__list-description">
+                    «Хочу выразить огромную благодарность сотруднику Доминику
+                    Биговски за то, что помог мне разобраться в деталях. В наше
+                    время сложно найти что-то подобное поэтому всем рекомендую
+                    инвестировать потому что эта возможность не вечна, Спасибо
+                    КЕРСО, моя жизнь значительно улучшилась, спасибо вам
+                    большое!"
+                  </p>
+                  <div class="feedback__author">
+                    <img
+                      src="./images/henric.jpg"
+                      width="38"
+                      height="38"
+                      alt="henric"
+                    />
+                    <div>
+                      <p class="feedback__name">Хенрик Врублевски</p>
+                      <p class="feedback__work">Инженер</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="feedback__list">
+                  <p class="feedback__list-title">Прибыль 1200 $</p>
+                  <p class="feedback__list-description">
+                    «Инвестиции всегда были для меня чем-то недоступным, но я
+                    наткнулся в Интернете на рекламу об инвестировании в зеленые
+                    фонды, заинтересовался и подал заявку. Мне позвонил
+                    представитель компании и объяснил пошагово, как правильно
+                    вложить свои деньги и какую прибыль я могу ожидать. Мои
+                    инвестиции окупились всего за месяц».
+                  </p>
+                  <div class="feedback__author">
+                    <img
+                      src="./images/stanislav.jpg"
+                      width="38"
+                      height="38"
+                      alt="stas"
+                    />
+                    <div>
+                      <p class="feedback__name">Станислав Зиола</p>
+                      <p class="feedback__work">
+                        Продавец компьютерной <br />
+                        техники
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li class="feedback__list">
+                  <p class="feedback__list-title">Прибыль 2100 $</p>
+                  <p class="feedback__list-description">
+                    «Некоторое время я задавался вопросом, куда вложить свои
+                    сбережения и решил инвестировать в зеленые акции КЕРСО, и
+                    это действительно так, как они обещали. Я получил то, что
+                    ожидал».
+                  </p>
+                  <div class="feedback__author">
+                    <img src="./images/ula.jpg" alt="ula" />
+                    <div>
+                      <p class="feedback__name">Ула Божена</p>
+                      <p class="feedback__work">Топ-менеджер</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="feedback__list">
+                  <p class="feedback__list-title">Прибыль 3500 $</p>
+                  <p class="feedback__list-description">
+                    «Третий месяц подряд я получаю 1200 $ от акций КЕРСО. Это
+                    совершенно пассивный доход который я получаю благодаря своей
+                    первой инвестиции в 300$ ! Я очень этому рад и горжусьтем.
+                    что мы продвигаем чистую энергетику в нашей стране."
+                  </p>
+                  <div class="feedback__author">
+                    <img src="./images/andjey.jpg" alt="andrew" />
+                    <div>
+                      <p class="feedback__name">Анджей Гирс</p>
+                      <p class="feedback__work">Автомеханик</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="feedback__list">
+                  <p class="feedback__list-title">Прибыль 7300 $</p>
+                  <p class="feedback__list-description">
+                    «Хочу выразить благодарность всей команде КЕРСО. Мы с
+                    дочерью очень благодарны компании за возможность стать
+                    инвесторами. Мы сделали небольшую инвестицию ит на той же
+                    неделе получили первый платеж! Мы были инвесторами. за три
+                    месяца и получайте пассивный доход более 4000 $ в месяц!»
+                  </p>
+                  <div class="feedback__author">
+                    <img
+                      src="./images/barbara.jpg"
+                      width="38"
+                      height="38"
+                      alt="andrew"
+                    />
+                    <div>
+                      <p class="feedback__name">Барбара Каминьска</p>
+                      <p class="feedback__work">Учитель биологии</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="feedback__list">
+                  <p class="feedback__list-title">Прибыль 1900 $</p>
+                  <p class="feedback__list-description">
+                    «Дорогие друзья, хочу поделиться своим опытом инвестирования
+                    Несмотря на то, что мне больше 70 лет, я не боюсь рисковать
+                    и искать новые способы заработка. Должен сказать, что
+                    инвестирование стало для меня настоящим открытием!"
+                  </p>
+                  <div class="feedback__author">
+                    <img
+                      src="./images/lidiya.jpg"
+                      width="38"
+                      height="38"
+                      alt="lidiya"
+                    />
+                    <div>
+                      <p class="feedback__name">Лидия Кокот</p>
+                      <p class="feedback__work">Пенсионер</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <button type="button" class="feedback__btn">Начать сейчас</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="white-space"></div>
+      <section id="Questions">
+        <div class="questions-bg">
+          <div>
+            <p class="questions__main-title">Часто задаваемые вопросы</p>
+            <p class="questions__secondary-title">У вас есть еще вопросы?</p>
+          </div>
+        </div>
+        <div class="container">
+          <div>
+            <ul class="questions__block">
+              <li class="questions__list">
+                <div class="questions__flexbox">
+                  <img
+                    src="./images/questionsSVG.svg"
+                    width="35"
+                    height="35"
+                    alt="questions"
+                  />
+                  <p class="questions__title">
+                    Как добиться высокой рентабельности инвестиций?
+                  </p>
+                </div>
+                <p class="questions__description">
+                  С целью разработки оптимальной стратегии развития
+                  возобновляемой энергетики и повышения рентабельности мы начали
+                  сотрудничество с экспертами – представителями всемирно
+                  известных инвестиционных брокеров. Поэтому мы уверены в ее
+                  эффективности и готовы поделиться полной информацией. Если вы
+                  заинтересованы, заполните форму заявки, и наш менеджер
+                  свяжется с вами, чтобы предоставить дополнительную информацию
+                  о нашей стратегии и ответить на любые ваши вопросы.
+                </p>
+              </li>
+              <li class="questions__list">
+                <div class="questions__flexbox">
+                  <img
+                    src="./images/questionsSVG.svg"
+                    width="35"
+                    height="35"
+                    alt="questions"
+                  />
+                  <p class="questions__title">
+                    Какой опыт необходим, чтобы начать инвестировать?
+                  </p>
+                </div>
+                <p class="questions__description">
+                  Вам не потребуется никакого опыта или специальной подготовки.
+                  Начать инвестировать в зеленые акции так же просто, как
+                  зарегистрироваться в любой социальной сети.
+                </p>
+              </li>
+              <li class="questions__list">
+                <div class="questions__flexbox">
+                  <img
+                    src="./images/questionsSVG.svg"
+                    width="35"
+                    height="35"
+                    alt="questions"
+                  />
+                  <p class="questions__title">
+                    Вы можете начать инвестировать в наши зеленые акции из любой
+                    страны. Мы работаем по всему миру и принимаем инвесторов со
+                    всего мира.
+                  </p>
+                </div>
+                <p class="questions__description">
+                  В настоящее время доступ к нашим зеленым акциям открыт только
+                  для резидентов из Южной Кореи. Наша система была разработана
+                  экспертами из Европы и на данный момент мы предлагаем
+                  возможность инвестировать только нашим согражданам.
+                </p>
+              </li>
+              <li class="questions__list">
+                <div class="questions__flexbox">
+                  <img
+                    src="./images/questionsSVG.svg"
+                    width="35"
+                    height="35"
+                    alt="questions"
+                  />
+                  <p class="questions__title">
+                    Как присоединиться к нашей инвестиционной программе?
+                  </p>
+                </div>
+                <p class="questions__description">
+                  Для участия заполните регистрационную форму вверху. После
+                  успешной регистрации ваш менеджер предоставит вам подробную
+                  инструкцию и ответит на все ваши вопросы.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="white-space"></div>
+      <section>
+        <div class="container">
+          <div class="changeLife">
+            <p class="changeLife__title">
+              Измени свою жизнь вместе с KEPCO и повлияй на жизнь своих родных
+            </p>
+            <button class="changeLife__btn" type="button">
+              Инвестируй сейчас
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <img src="./images/Kepco_logo_en2.svg" alt="logo" />
+          <div class="footer__flex">
+            <img src="./images/Screenshot_1.svg" alt="logo" />
+            <span class="footer__title"
+              >Certificate for KOSHA 18001 & K-OHSMA 18001</span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.19/build/js/intlTelInput.min.js"></script>
+    <script>
+      const input = document.querySelector("#phone");
+      window.intlTelInput(input, {
+        utilsScript:
+          "https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.19/build/js/utils.js",
+      });
+    </script>
+    <script src="./index.js"></script>
+  </body>
+</html>
